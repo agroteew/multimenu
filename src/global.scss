@@ -1,0 +1,165 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+.active-item {
+    border-left: 8px solid var(--ion-color-secondary);
+    border-right: 8px solid var(--ion-color-secondary);
+    color: var(--ion-color-primary);
+  font-weight: 700 !important;
+}
+
+.active-item2 {
+    border-left: 8px solid var(--ion-color-danger);
+    border-right: 8px solid var(--ion-color-danger);
+    color: var(--ion-color-danger);
+  font-weight: 700 !important;
+}
+.active-item3 {
+    border-left: 8px solid var(--ion-color-dark)
+}
+.active-item4 {
+  border-right: 8px solid var(--ion-color-danger);
+  color: var(--ion-color-danger);
+font-weight: 700 !important;
+}
+.active-item5 {
+  border-right: 8px solid var(--ion-color-primary);
+  color: var(--ion-color-primary);
+font-weight: 700 !important;
+}
+.active-item6 {
+  border-right: 8px solid var(--ion-color-warning);
+  color: var(--ion-color-warning);
+  font-weight: 700 !important;
+}
+.active-item7 {
+  border-left: 8px solid var(--ion-color-warning);
+  border-right: 8px solid var(--ion-color-danger);
+  color: var(--ion-color-primary);
+  font-weight: 700 !important;
+}
+
+.icon-circle {
+  height: 2rem;
+  width: 2rem;
+  border: 3px solid var(--ion-color-danger);
+  border-radius: 100%;
+  color: #ff0000;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  transform: rotate(75deg);
+
+}
+
+.icon-circle2 {
+  height: 2rem;
+  width: 2rem;
+  transform: rotate(25deg);
+
+  display: flex;
+}
+
+.active-menu-azul {
+  color: var(--ion-color-primary)
+}
+.active-menu-rojo {
+  color: var(--ion-color-danger)
+}
+.active-menu-verde {
+  color: var(--ion-color-success)
+}
+.active-menu-amarillo {
+  color: var(--ion-color-light)
+}
+.active-menu-gris {
+  color: var(--ion-color-secondary)
+}
+
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+.p-5 {
+  padding: 3rem !important;
+}
+.p-3 {
+  padding: 1rem !important;
+}
+
+
+.bg-gradient-primary {
+    background-color: #022953;
+    background-image: linear-gradient(180deg, #022953  10%, #5260ff 100%);
+    background-size: cover;
+  }
+  
+  .bg-gradient-secondary {
+    background-color: #858796;
+    background-image: linear-gradient(180deg, #858796 10%, #60616f 100%);
+    background-size: cover;
+  }
+  
+  .bg-gradient-success {
+    background-color: #13855c;
+    background-image: linear-gradient(180deg, #13855c 10%, #1cc88a 100%);
+    background-size: cover;
+  }
+  
+  .bg-gradient-info {
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, #ffffff 10%, #5260ff 100%);
+    background-size: cover;
+  }
+  
+  .bg-gradient-warning {
+    background-color: #cea41a;
+    background-image: linear-gradient(180deg, #cea41a 10%, #ffd752 100%);
+    background-size: cover;
+  }
+  
+  .bg-gradient-danger {
+    background-color: #af0b0b;
+    background-image: linear-gradient(180deg, #af0b0b 10%, #ff5252 100%);
+    background-size: cover;
+  }
+  
+  .bg-gradient-light {
+    background-color: #f8f9fc;
+    background-image: linear-gradient(180deg, #f8f9fc 10%, #c2cbe5 100%);
+    background-size: cover;
+  }
+  
+  .bg-gradient-dark {
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, #ffffff 10%, #50506d 100%);
+    background-size: cover;
+  }
+  
