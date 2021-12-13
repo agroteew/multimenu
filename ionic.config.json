@@ -1,0 +1,7 @@
+{
+  "name": "federado",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
