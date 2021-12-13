@@ -1,0 +1,67 @@
+<ion-split-pane contentId="content" [disabled]="!panelEnabled" >
+  <ion-menu contentId="content" menuId="first" >
+
+    <ion-header>
+      <ion-toolbar class="active-item4" color="tertiary" lines="none">
+        <div class="active-item5">
+          <div class="active-item6">
+        <ion-item color="tertiary" lines="none">
+            <ion-avatar slot="start">
+            <img src="assets/avatar.png" alt="Menu profile picture">
+            </ion-avatar>
+            <ion-label class="ion-text-wrap">
+            <h2 class="font-weight-bold text-white">Liga 100% Federado</h2>
+            </ion-label>
+        </ion-item>
+      </div>
+      </div>
+    </ion-toolbar>
+    </ion-header>
+
+    <ion-content color="tertiary">
+        <ion-menu-toggle auto-hide="false" menu="first" >
+          <ion-item color="tertiary" routerLink="/tabs/tab1/home"  routerDirection="root" routerLinkActive="active-item7">
+            <ion-icon name='diamond' slot="start" routerLinkActive="icon-circle2"></ion-icon>
+            <ion-label >
+
+              Home </ion-label>
+          </ion-item>
+          <ion-item color="tertiary" routerLink="/tabs/tab1/news"  routerDirection="root" routerLinkActive="active-item7">
+            <ion-icon name='baseball-outline' slot="start" routerLinkActive="icon-circle"></ion-icon>
+            <ion-label> News </ion-label>
+          </ion-item>
+          
+        <ion-item color="tertiary" routerLink="/tabs/tab1/equipos" routerDirection="root" routerLinkActive="active-item7">
+          <ion-icon name='baseball-outline' slot="start" routerLinkActive="icon-circle"></ion-icon>
+          <ion-label> Equipos </ion-label>
+        </ion-item>
+        <ion-item color="tertiary" routerLink="/tabs/tab1/categorias"  routerDirection="root" routerLinkActive="active-item7" >
+          <ion-icon name='baseball-outline' slot="start" routerLinkActive="icon-circle"></ion-icon>
+          <ion-label> Categorias </ion-label>
+        </ion-item>
+        <ion-item color="tertiary" routerLink="/tabs/tab1/jugadores"  routerDirection="root" routerLinkActive="active-item7" >
+          <ion-icon name='baseball-outline' slot="start" routerLinkActive="icon-circle"></ion-icon>
+          <ion-label> Jugadores </ion-label>
+        </ion-item>
+        <ion-item color="tertiary" routerLink="/tabs/tab1/juegos"  routerDirection="root" routerLinkActive="active-item7" >
+          <ion-icon name='baseball-outline' slot="start" routerLinkActive="icon-circle"></ion-icon>
+          <ion-label> Juegos </ion-label>
+        </ion-item>
+        <ion-item color="tertiary" routerLink="/tabs/tab1/menbresia"  routerDirection="root" routerLinkActive="active-item7" >
+          <ion-icon name='baseball-outline' slot="start" routerLinkActive="icon-circle"></ion-icon>
+          <ion-label> Membresia </ion-label>
+        </ion-item>
+      </ion-menu-toggle >
+
+    </ion-content>
+    <ion-footer >
+      <div class="p-3 bg-gradient-dark" style="text-align: center">
+
+        
+        <ion-label ><small> EG <ion-icon name="code-working"></ion-icon> RF</small></ion-label>
+    </div>
+
+            </ion-footer>
+  </ion-menu>
+  <ion-router-outlet id="content"></ion-router-outlet>
+</ion-split-pane>

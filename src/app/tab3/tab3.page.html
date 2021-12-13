@@ -1,0 +1,60 @@
+<ion-split-pane contentId="third-content" [disabled]="!panelEnabled">
+  <ion-menu contentId="third-content" menuId="third">
+
+    <ion-header>
+      <ion-toolbar class="active-item4" color="success">
+        <div class="active-item5">
+          <div class="active-item6">
+
+        <ion-item color="success">
+            <ion-avatar slot="start">
+            <img src="assets/avatar.png" alt="Menu profile picture">
+            </ion-avatar>
+            <ion-label class="ion-text-wrap">
+            <h2 class="font-weight-bold text-white">Liga 100% Federado</h2>
+            </ion-label>
+            
+        </ion-item>    
+      </div>
+    </div>
+      </ion-toolbar>
+
+      </ion-header>
+
+    <ion-content>
+      <ion-list>
+        <ion-menu-toggle auto-hide="false" menu="third">
+
+          <ion-item routerLink="/tabs/tab3/galeria" lines="none" routerDirection="root" routerLinkActive="active-item7">
+            <ion-icon name='star' slot="start" routerLinkActive="active-menu-amarillo"></ion-icon>
+
+            <ion-label>
+              Galeria
+            </ion-label>
+          </ion-item>
+
+          <ion-item routerLink="/tabs/tab3/contacto" lines="none" routerDirection="root" routerLinkActive="active-item7">
+            <ion-icon name='star' slot="start" routerLinkActive="active-menu-amarillo"></ion-icon>
+            <ion-label>
+              Constacto
+            </ion-label>
+          </ion-item>
+
+          
+          <ion-item routerLink="/tabs/tab3/mensajes" lines="none" routerDirection="root" routerLinkActive="active-item7">
+            <ion-icon name='star' slot="start" routerLinkActive="active-menu-amarillo"></ion-icon>
+            <ion-label>
+              Mensajes
+            </ion-label>
+          </ion-item>
+
+         
+
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+
+  </ion-menu>
+
+  <ion-router-outlet id="third-content"></ion-router-outlet>
+</ion-split-pane>
